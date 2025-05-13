@@ -4,7 +4,7 @@ Bienvenus dans ce projet Unreal Engine !
 
 Notre mission est de créer un jeu d'infiltration 3D en utilisant le moteur Unreal Engine. 
 
-[image](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/intro_1.png)
+![image](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/intro_1.png)
 
 Dans **Stealthgame**, nous incarnons un personnage enfermé dans un complexe étrange. Il dois sortir d'ici en évitant d'être reperé par les caméras de sécurités, en évitant les pièges qui lui seront tendus, et en résolvant des énigmes, ce qui lui permet de passer à la salle suivante. 
 
