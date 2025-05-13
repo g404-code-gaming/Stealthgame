@@ -6,7 +6,7 @@ Il est l'heure de programmer nos premiers évènements.
 
 Notre objectif est de faire apparaître une porte à la fin du niveau lorsque le personnage entre dans le rayon d'action d'une caméra. 
 
-(image 1)
+![image](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/2_evenement_1.png)
 
 Voici ce qu'on souhaite faire, retraduit dans une forme plus "scrip" : 
   - Faire disparaître la porte par défaut pour que le personnage puisse passer au niveau suivant. Cela signifie que la porte est invisible, mais aussi qu'elle n'a pas de collision.
@@ -15,13 +15,13 @@ Voici ce qu'on souhaite faire, retraduit dans une forme plus "scrip" :
 
 Commencez par 'ouvrir' la porte par défaut dans le [Level Blueprint](https://github.com/g404-code-gaming/UnrealEngine_cour/blob/main/Blueprint.md).
 
-(image 2)
+![image](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/2_evenement_2.png)
 
 Ensuite, on créer l'évènement qui reconnait quand le joueur entre dans le rayon d'action de la caméra. Cela allume une lumière d'alarme.
 
 > N'oubliez pas de créer la Classe Caméra, dans laquelle dois figurer au moins une **sphère de colision** et une **lumière**.
 
-(image 3)
+![image](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/2_evenement_3.png)
 
 Tester le jeu pour voir si la lumière s'allume et s'éteint lorsque le joueur est vus par la caméra.
 
@@ -35,21 +35,21 @@ Pour cela, nous allons utiliser un **Event Dispatcher** : une sorte de signal pe
 
 Dans le blueprint de la caméra, créer l'event **Reveal**, puis intégrez-le aux nodes en utilisant le node **Call**. 
 
-(image 4)
+![image](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/2_evenement_4.png)
 
 Ensuite, dans le Level Blueprint, nous allons créer des graphique de node conçus pour permettre à toutes les alarmes de fermer toutes les portes. 
 
 Commençons par créer un graphique qui ferme toutes les portes, et un autre qui ouvre toutes les portes : 
 
-(image 5)
+![image](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/2_evenement_5.png)
 
 Ensuite, nous devons créer le graphique qui prend toutes les caméras et leur assigne un évènement qui ouvre la porte lorsque l'event dispatcher est appelé. 
 
-(image 6) 
+![image](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/2_evenement_6.png)
 
 Maintenant que les graphiques sont fait, il reste à initialiser le graphique d'alarme et à ouvrir toutes les portes au debut du niveau. 
 
-(image 7) 
+![image](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/2_evenement_7.png)
 
 ## Bouton 
 
