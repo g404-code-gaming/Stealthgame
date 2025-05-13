@@ -25,7 +25,7 @@ Ensuite, on créer l'évènement qui reconnait quand le joueur entre dans le ray
 
 Tester le jeu pour voir si la lumière s'allume et s'éteint lorsque le joueur est vus par la caméra.
 
-## Interaction entre les classes et le Level Blueprint : l'Event dispatcher
+### Interaction entre les classes et le Level Blueprint : l'Event dispatcher
 
 Nous voulons faire en sorte que la porte se ferme lorsque le joueur est révélé par la caméra. Néanmoins, comment faire cela alors que le script de détection par la caméra est dans un Class Blueprint, et que la porte ne fait pas partie de ce Blueprint. 
 
