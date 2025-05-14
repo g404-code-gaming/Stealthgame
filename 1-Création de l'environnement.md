@@ -50,5 +50,5 @@ Une fois que c'est fait, créez deux nouveaux objets :
 
 Nous pourrons ensuite commencer à créer les évènements d'alarme : 
 
-[2 - Alarme et portes]()
+[2 - Alarme et portes](https://github.com/g404-code-gaming/Stealthgame/blob/main/2-Premiers%20%C3%A9v%C3%A8nements.md)
 
