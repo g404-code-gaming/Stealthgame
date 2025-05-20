@@ -17,7 +17,7 @@ Commencez par 'ouvrir' la porte par défaut dans le [Level Blueprint](https://gi
 
 ![image](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/2_evenement_2.png)
 
-Ensuite, on créer l'évènement qui reconnait quand le joueur entre dans le rayon d'action de la caméra. Cela allume une lumière d'alarme.
+Ensuite, on créer l'évènement qui reconnait quand le joueur entre dans le rayon d'action de la caméra. Cela allume une lumière d'alarme. Ce script doit être mis dans le graphique de la classe, et pas dans le Lvl-Blueprint. 
 
 > N'oubliez pas de créer la Classe Caméra, dans laquelle dois figurer au moins une **sphère de colision** et une **lumière**.
 
@@ -33,11 +33,11 @@ De plus, ce que nous avons fait dans le Level Blueprint ne fonctionne que pour u
 
 Pour cela, nous allons utiliser un **Event Dispatcher** : une sorte de signal permettant aux Blueprint class de communiquer entre elles.
 
-Dans le blueprint de la caméra, créer l'event **Reveal**, puis intégrez-le aux nodes en utilisant le node **Call**. 
+Dans le blueprint de la **caméra**, créer l'event **Reveal**, puis intégrez-le aux nodes en utilisant le node **Call**. 
 
 ![image](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/2_evenement_4.png)
 
-Ensuite, dans le Level Blueprint, nous allons créer des graphique de node conçus pour permettre à toutes les alarmes de fermer toutes les portes. 
+Ensuite, dans le **Level Blueprint**, nous allons créer des graphique de node conçus pour permettre à toutes les alarmes de fermer toutes les portes. 
 
 Commençons par créer un graphique qui ferme toutes les portes, et un autre qui ouvre toutes les portes : 
 
