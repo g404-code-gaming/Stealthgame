@@ -59,7 +59,7 @@ Lorsque le personnage appuie sur une touche d'interaction en étant à proximit�
 
 Créez une nouvelle Classe **Bouton**. Ce dernier dois notammant contenir une **boîte de colision** pour qu'il puisse détecter le joueur proche. Il faut également une lumière qui clignotera pour indiquer que le bouton a été pressé. 
 
-![image 8]()
+![image 8](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/2_evenement_8.png)
 
 Nous allons ajouter le morceau de blueprint qui permet de reconnaître quand le bouton est pressé. Pour cela, nous allons d'abord devoir choisir avec quelle touche du clavier on peut interragir avec l'environnement. 
 
@@ -67,7 +67,7 @@ Allez dans les paramètres du projet, trouver les **Entrées** (Input). Dedans, 
 
 A vous de choisir quelle touche vous voulez assigner à l'interaction. Vous pourrez toujours la changer plus tard si nécessaire. 
 
-![image 9]()
+![image 9](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/2_evenement_9.png)
 
 Désormais, nous pouvons utiliser un node Interact pour actionner le bouton ou n'importe quel autre élément du jeu ! 
 
@@ -77,7 +77,7 @@ Dans le **Blueprint** du Bouton, ajouter les nodes permettants de reconnaître q
   - (3) Ajoutez un Event dispatcher **Used** qui servira plus tards dans le Level-Blueprint.
   - (4) Lorsque le bouton est pressé, un indicateur lumineux s'éteint et se rallume pour indiquer au joueur que son action à réussis. 
 
-![image 10]()
+![image 10](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/2_evenement_10.png)
 
 Testez votre projet : ajoutez un bouton au niveau et passez devant pour voir si le message apparait. Vérifier que la lumière clignote si vous appuyer sur le bouton d'interaction. 
 
@@ -86,15 +86,15 @@ Lorsque tout ça a fonctionné, il faut désormais relier le bouton aux portes a
 Dans le **Level-Blueprint**, Créer un nouveau Custom **Event Initialyze Bouton Reset Alarme**, qui va liée tout les objets Boutons à un évent de Reset alarme. 
 Cela fonctionne un peu comme la détection par les caméras : on prend tout les acteurs de type Bouton, et on leur crée un custom event spécial qui permet d'appeler la fonction Open Door. 
 
-![image 11]()
+![image 11](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/2_evenement_11.png)
 
 Afin que les caméra puissent toujours refermer les portes, il faut réactiver l'évènement d'alarme. 
 
-![image 12]()
+![image 12](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/2_evenement_12.png)
 
 Comme à chaque fois qu'on crée des custom event pour tout les objets, il faut initialiser la construction des évènements lors du BeginPlay. 
 
-![image 13]()
+![image 13](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/2_evenement_13.png)
 
 Testez le jeu ! 
 
