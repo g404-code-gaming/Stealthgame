@@ -98,7 +98,7 @@ Comme à chaque fois qu'on crée des custom event pour tout les objets, il faut 
 
 Testez le jeu ! 
 
-Désormais, vous avez les bases de la programmation par Blueprint en utilisant les classes. Vous savez créer des Classes d'acteurs, leur donner du script pour des fonctionnement de base, et même les reliés entre eux grâce à des Events dispatcher.
+Désormais, vous avez les bases de la programmation par Blueprint en utilisant les classes. Vous savez créer des Classes d'acteurs, leur donner du script pour des fonctionnements de base, et même les relier entre eux grâce à des Events dispatcher.
 
 
 
