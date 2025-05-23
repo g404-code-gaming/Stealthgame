@@ -2,7 +2,7 @@
 
 ## Paramétrage 
 
-Notre objectif est de faire apparaître une porte à la fin du niveau lorsque le personnage entre dans le rayon d'action d'une caméra. Nous allons travailler un peu au paramétrage de notre projet : pour l'instant, nous utilisons des éléments issus du template FirstPerson, mais nous pourrions avoir besoin de les modifier dans la suite du projet.
+Nous allons travailler un peu au paramétrage de notre projet : pour l'instant, nous utilisons des éléments issus du template FirstPerson, mais nous pourrions avoir besoin de les modifier dans la suite du projet.
 Pour éviter de modifier les classes déjà faites du projet, nous allons créer les nôtres :
 
 Dupliquez le Blueprint du personnage et le Gamemode à partir du dossier FirstPerson. Renommez-les et placez-les dans votre propre dossier Stealthgame.
