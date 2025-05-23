@@ -2,18 +2,18 @@
 
 ## Paramétrage 
 
-Nous allons travailler un peu au paramétrage de notre projet : pour l'instant, nous utilisons des éléments issus du template FirstPerson, mais nous pourrions avoir besoin de les modifiers dans la suite du projet.
-Pour éviter de modifier les classes déjà faite du projet, nous allons créer les notres : 
+Notre objectif est de faire apparaître une porte à la fin du niveau lorsque le personnage entre dans le rayon d'action d'une caméra. Nous allons travailler un peu au paramétrage de notre projet : pour l'instant, nous utilisons des éléments issus du template FirstPerson, mais nous pourrions avoir besoin de les modifier dans la suite du projet.
+Pour éviter de modifier les classes déjà faites du projet, nous allons créer les nôtres :
 
-Dupliquer le Blueprint du personnage et le Gamemode à partir du dossier Firstperson. Renommez-les et placez-les dans votre propre dossier Stealthgame.
+Dupliquez le Blueprint du personnage et le Gamemode à partir du dossier FirstPerson. Renommez-les et placez-les dans votre propre dossier Stealthgame.
 
 ![image 1](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/1%20-%20parametre%20et%20interface%20-%201.png)
 
-Allez dans les paramètres du projet et changer de Gamemode pour choisir le votre.
+Allez dans les paramètres du projet et changer de **Gamemode** pour choisir le votre.
 
 ![image 2](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/1%20-%20parametre%20et%20interface%20-%202.png)
 
-Désormais, ouvrez votre Gamemode et changer le Default Pawn Class : mettez votre personnage à la place de celui du FirstPerson. 
+Désormais, ouvrez votre Gamemode et changer le **Default Pawn Class** : mettez votre personnage à la place de celui du FirstPerson. 
 
 ![image 3](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/1%20-%20parametre%20et%20interface%20-%203.png)
 
@@ -21,11 +21,11 @@ Ainsi, nous pourrons modifier plus facilement le jeu.
 
 ## Interface 
 
-Il serait bien d'afficher dans le jeu les contrôles possibles : il faut, par exemple, que le joueur sache quelle touche utilisée pour interragir avec l'environnement.
+Il serait bien d'afficher dans le jeu les contrôles possibles : il faut, par exemple, que le joueur sache quelle touche utiliser pour interagir avec l'environnement.
 
-Pour ça, nous allons créer un **UI** (User Interface). 
+Pour ça, nous allons créer un **UI** (User Interface).
 
-Créer le niveau **Widget blueprint** de votre UI.
+Créez le niveau **Widget blueprint** de votre UI.
 
 ![image 4](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/1%20-%20parametre%20et%20interface%20-%204.png)
 
@@ -33,7 +33,7 @@ Dans ce niveau Widget, ajouter un Canvas Pannel et autant de text que nécessair
 
 ![image 5](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/1%20-%20parametre%20et%20interface%20-%205.png)
 
-Pour chaque text, modifier le nom et le contenu pour qu'il affiche les contrôles. 
+Pour chaque text, modifiez le nom et le contenu pour qu'il affiche les contrôles. 
 
 ![image 6](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/1%20-%20parametre%20et%20interface%20-%206.png)
 
