@@ -27,24 +27,24 @@ Pour ça, nous allons créer un **UI** (User Interface).
 
 Créer le niveau **Widget blueprint** de votre UI.
 
-![image 3](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/1%20-%20parametre%20et%20interface%20-%203.png)
+![image 4](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/1%20-%20parametre%20et%20interface%20-%204.png)
 
 Dans ce niveau Widget, ajouter un Canvas Pannel et autant de text que nécessaire pour afficher tout les contrôles du jeu. 
 
-![image 4](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/1%20-%20parametre%20et%20interface%20-%204.png)
+![image 5](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/1%20-%20parametre%20et%20interface%20-%205.png)
 
 Pour chaque text, modifier le nom et le contenu pour qu'il affiche les contrôles. 
 
-![image 5](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/1%20-%20parametre%20et%20interface%20-%205.png)
+![image 6](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/1%20-%20parametre%20et%20interface%20-%206.png)
 
 Maintenant que le widget est préparé, il faut aller l'ajouter dans le **Level Blueprint** : Il faut créer un évènement qui ajoute le widget à la vue du joueur. 
 
-![image 6](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/1%20-%20parametre%20et%20interface%20-%206.png)
+![image 7](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/1%20-%20parametre%20et%20interface%20-%207.png)
 
 Ce nouvel évènement doit être appelé au lancement du jeu. 
 
-![image 7](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/1%20-%20parametre%20et%20interface%20-%207.png)
+![image 8](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/1%20-%20parametre%20et%20interface%20-%208.png)
 
 Désormais, notre personnage possède un interface sur lequel apparait les contrôles possible : Bravo ! 
 
-![image 8](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/1%20-%20parametre%20et%20interface%20-%208.png)
+![image 9](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/1%20-%20parametre%20et%20interface%20-%209.png)
