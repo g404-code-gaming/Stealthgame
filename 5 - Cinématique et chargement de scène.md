@@ -8,24 +8,24 @@ Les cinématiques sont souvent utilisées pour donner une information au joueur.
 
 Ajouter une Caméra à votre scène.
 
-![image 1]()
+![image 1](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/5_cinematique%20et%20scene_1.png)
 
 Pour contrôler facilement la caméra, nous allons utiliser des Macros. 
 
 Créer la MacroLibrary pour votre projet. 
 
-![image 2]() 
+![image 2](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/5_cinematique%20et%20scene_2.png) 
 
 Les Macro sont des évènements préfaits qu'il est possible d'utiliser comme on le souhaite partout dans le projet. Cela simplifie grandement la programmation et permet de créer des évènements complexes et de les paramétrer facilement. 
 
 Ajouter une Macro **OpenCinematic** qui va permettre de lancer le début d'une cinématique. 
 Cet évènement consiste à désactiver les contrôles du personnage (pour éviter qu'il bouge pendant la cinématique), puis a changer la vue du joueur en choississant une caméra de la scène. 
 
-![image 3]() 
+![image 3](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/5_cinematique%20et%20scene_3.png) 
 
 Ajouter également la Macro **CloseCinematic** qui permet de stopper une cinématique et de reprendre les contrôles et la caméra du personnage. 
 
-![image 4]() 
+![image 4](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/5_cinematique%20et%20scene_4.png) 
 
 Voilà ! Avec ces Macros, nous pouvons très facilement créer des évènements de cinématiques simples. 
 
@@ -33,7 +33,7 @@ Si ce n'est pas déjà fait, ajouter dans le niveau une **Caméra** et un **Trig
 
 Dans le **Level Blueprint**, ajouter l'évènement qui va utiliser les Macro pour déclencher une cinématique à l'aide de la caméra. 
 
-![image 5]() 
+![image 5](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/5_cinematique%20et%20scene_5.png) 
 
 Désormais, vous savez comment faire des cinématiques simples. 
 
@@ -45,11 +45,11 @@ Lorsque le joueur "meurre", cela va directement relancer le niveau, lui donnant 
 
 Créer une nouvelle [classe](https://github.com/g404-code-gaming/UnrealEngine_cour/blob/main/Classes.md) **Vide** : un objet qui va tuer le personnage lorsqu'il le touche. 
 
-![image 6]() 
+![image 6](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/5_cinematique%20et%20scene_6.png) 
 
 Dans le graphique de cet objet, crée l'évènement qui fait recharger la scène lorsque le personnage entre en contact avec le vide.
 
-![image 7]() 
+![image 7](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/5_cinematique%20et%20scene_7.png) 
 
 Améliorez votre niveau de jeu pour ajouter le vide, et testez le pour voir si la "mort" du personnage fonctionne.
 
