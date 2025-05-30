@@ -43,6 +43,14 @@ Dans ce jeu d'infiltration, nous allons rajouter un élément dangereux qui fait
 
 Lorsque le joueur "meurre", cela va directement relancer le niveau, lui donnant une chance de rejouer. 
 
-Créer une nouvelle [classe](https://github.com/g404-code-gaming/UnrealEngine_cour/blob/main/Classes.md) **Vide** qui est un objet qui va tuer le personnage lorsqu'il le touche. 
+Créer une nouvelle [classe](https://github.com/g404-code-gaming/UnrealEngine_cour/blob/main/Classes.md) **Vide** : un objet qui va tuer le personnage lorsqu'il le touche. 
+
+![image 6]() 
+
+Dans le graphique de cet objet, crée l'évènement qui fait recharger la scène lorsque le personnage entre en contact avec le vide.
+
+![image 7]() 
+
+Améliorez votre niveau de jeu pour ajouter le vide, et testez le pour voir si la "mort" du personnage fonctionne.
 
 
