@@ -5,11 +5,11 @@
 Nous allons travailler un peu au paramétrage de notre projet : pour l'instant, nous utilisons des éléments issus du template FirstPerson, mais nous pourrions avoir besoin de les modifier dans la suite du projet.
 Pour éviter de modifier les classes déjà faites du projet, nous allons créer les nôtres :
 
-Dupliquez le Blueprint du personnage et le Gamemode à partir du dossier FirstPerson. Renommez-les et placez-les dans votre propre dossier Stealthgame.
+Dupliquez le **Blueprint du personnage** et le **Gamemode** à partir du dossier FirstPerson. Renommez-les et placez-les dans votre propre dossier Stealthgame.
 
 ![image 1](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/1%20-%20parametre%20et%20interface%20-%201.png)
 
-Allez dans les paramètres du projet et changer de **Gamemode** pour choisir le votre.
+Allez dans les paramètres du projet et changer de **Gamemode** pour choisir le votre (exemple : Stealthgame_characther et Stealthgame_gamemode). 
 
 ![image 2](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/1%20-%20parametre%20et%20interface%20-%202.png)
 
@@ -25,15 +25,15 @@ Il serait bien d'afficher dans le jeu les contrôles possibles : il faut, par ex
 
 Pour ça, nous allons créer un **UI** (User Interface).
 
-Créez le niveau **Widget blueprint** de votre UI.
+Créez le niveau **Widget blueprint** de votre UI depuis le tiroir a contenu.
 
 ![image 4](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/1%20-%20parametre%20et%20interface%20-%204.png)
 
-Dans ce niveau Widget, ajouter un Canvas Pannel et autant de text que nécessaire pour afficher tout les contrôles du jeu. 
+Dans ce niveau Widget, ajouter un Canvas Pannel et autant de text que nécessaire pour afficher tout les contrôles du jeu.
 
 ![image 5](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/1%20-%20parametre%20et%20interface%20-%205.png)
 
-Pour chaque text, modifiez le nom et le contenu pour qu'il affiche les contrôles. 
+Pour chaque composant text, modifiez le nom et le contenu pour qu'il affiche les contrôles.
 
 ![image 6](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/1%20-%20parametre%20et%20interface%20-%206.png)
 
