@@ -2,23 +2,23 @@
 
 Nous allons rajouter quelques actions en plus pour notre personnage. Il est en effet déjà capable de se déplacer et de sauter, mais nous allons rajouter deux actions très commune dans les FPS, et qui vont ajouter de la profondeur et de la fluidité dans le jeu.
 
-Pour cette partie, nous allons travailler dans le Blueprint du Personnage : le **BP_StealthgameCharacter** qui a été crée dans le chapitre précédente.
+Pour cette partie, nous allons travailler dans le Blueprint du Personnage : le **BP_StealthgameCharacter** qui a été créé dans le chapitre précédente.
 
 ## S'accroupir
 
-Dans un jeu d'infiltration comme Stealthgame, s'accroupir est une action très courante. Elle permet d'être plus discrèt tout en passant dans des endroits autrement inaccessibles. Cette action possède néanmoins une contrepartie : elle rend le personnage plus lent.
+Dans un jeu d'infiltration comme Stealthgame, s'accroupir est une action très courante. Elle permet d'être plus discret tout en passant dans des endroits autrement inaccessibles. Cette action possède néanmoins une contrepartie : elle rend le personnage plus lent.
 
 ![image 1](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/4_actionperso_1.JPG)
 
-Pour implémenter l'action, il faut ajouter la touche correspondante dans les entrées du projet : Paramètres --> Paramètres du projet --> Entrée
+Pour implémenter l'action, il faut ajouter la touche correspondante dans les entrées du projet : Paramètres --> Paramètres du projet --> Entrée (*Input* en anglais).
 
 ![image 2](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/4_actionperso_2.JPG)
 
-Il faut également aller dans les détails du personnage pour permettre l'action.
+Il faut également aller dans les **détails** du personnage pour permettre l'action.
 
 ![image 3](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/4_actionperso_3.JPG)
 
-Ensuite, il faut ajouter l'évènement au Blueprint du personnage : 
+Ensuite, il faut ajouter l'évènement au **Blueprint du personnage** : 
 Lorsqu'on presse la touche de Crouch, il se passe des choses différentes en fonction de si on a appuyé sur la touche ou non auparavant : 
   - Si on n'a pas déjà activé la commande de Crouch, alors cette dernière est activée.
   - Si on a déjà activé la commande, alors le Crouch est désactivé et le personnage se remet à se déplacer normalement.
