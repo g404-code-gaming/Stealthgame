@@ -100,5 +100,5 @@ Testez le jeu !
 
 Désormais, vous avez les bases de la programmation par Blueprint en utilisant les classes. Vous savez créer des Classes d'acteurs, leur donner du script pour des fonctionnements de base, et même les relier entre eux grâce à des Events dispatcher.
 
-
+[3 - Paramétrage et interface](https://github.com/g404-code-gaming/Stealthgame/blob/main/3%20-%20Param%C3%A9trage%20et%20interface.md)
 
