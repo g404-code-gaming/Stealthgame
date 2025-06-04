@@ -41,7 +41,7 @@ Désormais, vous savez comment faire des cinématiques simples.
 
 Dans ce jeu d'infiltration, nous allons rajouter un élément dangereux qui fait imédiatement perdre le joueur s'il le touche, par exemple, un trou, un lac d'acide, de la lave, ....
 
-Lorsque le joueur "meurre", cela va directement relancer le niveau, lui donnant une chance de rejouer. 
+Lorsque le joueur "meure", cela va directement relancer le niveau, lui donnant une chance de rejouer. 
 
 Créer une nouvelle [classe](https://github.com/g404-code-gaming/UnrealEngine_cour/blob/main/Classes.md) **Vide** : un objet qui va tuer le personnage lorsqu'il le touche. 
 
