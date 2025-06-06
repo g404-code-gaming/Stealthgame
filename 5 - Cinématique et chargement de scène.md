@@ -53,4 +53,8 @@ Dans le graphique de cet objet, crée l'évènement qui fait recharger la scène
 
 Améliorez votre niveau de jeu pour ajouter le vide, et testez le pour voir si la "mort" du personnage fonctionne.
 
+Le vide servira à construire des ateliers avec des plateformes sur lesquels le joueur devra sauter pour atteindre la prochaine étape du jeu. 
+
+[6 - Messages avancés](https://github.com/g404-code-gaming/Stealthgame/blob/main/6%20-%20Messages.md)
+
 
