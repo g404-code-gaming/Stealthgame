@@ -28,11 +28,11 @@ Premièrement, on trace une ligne entre le laser et sa target grâce au node **L
 
 ![image 3](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/7_laser_3.png)
 
-Ensuite, on vérifie que l'acteur touché est bien le joueur. Si c'est le cas, alors on active la lumière d'alarme est on utilise un **dispatcher** nommé Touched pour communiquer au niveau que le joueur est détecté.
+Ensuite, on vérifie que l'acteur touché est bien le joueur. Si c'est le cas, alors on active la lumière d'alarme est on utilise un **event dispatcher** nommé Touched pour communiquer au niveau que le joueur est détecté.
 
 ![image 4](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/7_laser_4.png)
 
-Dans la scène, placés un laser et créer un objet **Target Point** qui sera la destination du rayon. Définissez la variable Target du laser pour qu'il reconnaisse votre TargetPoint.
+Dans la scène, placez un laser et créez un objet **Target Point** qui sera la destination du rayon. Définissez la variable Target du laser pour qu'il reconnaisse votre TargetPoint.
 
 ![image 5](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/7_laser_5.png)
 
