@@ -50,5 +50,10 @@ N'oubliez pas d'initialiser cette évènement au début du jeu.
 
 ![image 7](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/7_laser_7.png)
 
+Il faut également ajouter une connexion entre l'évènement d'ouverture des portes et l'alarme des lasers : il faut que l'évènement soit réactivé lorsqu'on ouvre les portes.
+
+![image 7](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/7_laser_8.png)
+![image 7](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/7_laser_9.png)
+
 Avec ces ajouts, les Laser fonctionnent maintenant comme des caméras : ils déclenchent l'alarme si le joueur entre en contact avec leur rayon.
 
