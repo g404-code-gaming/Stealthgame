@@ -57,3 +57,7 @@ Il faut également ajouter une connexion entre l'évènement d'ouverture des por
 
 Avec ces ajouts, les Laser fonctionnent maintenant comme des caméras : ils déclenchent l'alarme si le joueur entre en contact avec leur rayon.
 
+Contrairement aux Caméras, qui sont surtout utilisée pour former une zone d'interdiction sur le sol, les lasers peuvent être utilisés pour former de véritable obstacles en 3D. Dans la partie suivante, nous allons créer du mouvement dans le jeu.
+
+[8 - Animations]()
+
