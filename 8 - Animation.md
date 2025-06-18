@@ -10,18 +10,18 @@ Nous allons commencer par apprendre les animations simples en modifiant nos port
 
 Dans votre classe de **Porte**, ajoutez un Animator Sequencer parmi les composants. Renommez-le **Open** : c’est l’animation d’ouverture de nos portes.
 
-![image 1]()
+![image 1](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/8_anim_1.png)
 
 Dans l'animator, ouvrez le **sequenceur** en utilisant le bouton *Open in tab*.
 
-![image 2]()
+![image 2](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/8_anim_2.png)
 
 Dans notre animation, nous souhaitons que la porte s’ouvre en se levant vers le haut, comme une herse. Pour ce faire, suivez les étapes suivantes :
 
-![image 3]()
-![image 4]()
-![image 5]()
-![image 6]()
+![image 3](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/8_anim_3.png)
+![image 4](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/8_anim_4.png)
+![image 5](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/8_anim_5.png)
+![image 6](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/8_anim_6.png)
 
 Vous pouvez lancer un aperçus depuis le séquenceur pour vérifier que l'animation se fait bien comme prévus. 
 
@@ -31,11 +31,11 @@ Créez une nouvelle séquence **Close** en répétant les étapes de la partie p
 
 Une fois que votre animation finale est faite, ajouter à votre porte une variable *Ouvert*, sers à déterminer si elle est ouverte ou fermée.
 
-![image 7]()
+![image 7](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/8_anim_7.png)
 
 Désormais, dans le **level blueprint**, il faut modifier les customs events d'ouverture et de fermeture des portes pour inclure les nouvelles animations : au lieu de rendre (in)visible et (in)tangible les portes, on va directement déclencher leur animation. 
 
 Puisqu'on ne veux pas que les portes s'ouvre/ferme plusieurs fois d'affilées (par exemple, si le joueur se fait repérer plusieurs fois de suite par une caméra), nous ajoutons un vérification de la variable *Ouvert* : Si Ouvert est faux, alors les portes sont donc fermée et ne peuvent pas se refermée. A l'inverse, si la variable est vraie, c'est que les portes sont déjà ouvertes et ne peuvent pas s'ouvrir à nouveau : seulement se fermer.
 
-![image 8]()
+![image 8](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/8_anim_8.png)
 
