@@ -6,7 +6,7 @@ Nous avons des portes qui se referment lorsque l'alarme est sonnée. Désormais,
 
 ## Création du bouton 
 
-Ajouter une nouvelle [classe]() **Bouton**. 
+Ajouter une nouvelle [classe](https://github.com/g404-code-gaming/UnrealEngine_cour/blob/main/Classes.md) **Bouton**. 
 
 Cette classe consiste essentiellement en un **objet** rond sur le mur, qui est illuminé par une **lumière** et possède une box de collision.
 
