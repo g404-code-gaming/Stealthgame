@@ -30,11 +30,11 @@ Toutes les variables doivent être visible (l'oeil ouvert à coté), afin qu'il 
 Pour que l'objet puisse tourner sur lui-même, nous allons ajouter le graphique suivant dans son Blueprint : 
   Concrètement, on vérifie si la variable *Rotate* est vraie, et si c'est bien le cas, on fait tourner l'objet grâce à *add actor rotation*. 
 
-![image 3](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/9_animation_3.JPG) 
+![image 3](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/9_animation_3.jpg) 
 
 Une fois que c'est fait, nous allons poser un Moving Actor sur la scène et mettre un laser à l'intérieur pour tester notre nouveau programme.
 
-![image 4](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/9_animation_4.JPG) 
+![image 4](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/9_animation_4.jpg) 
 
 Il faut bien intégrer le laser dans le Moving target, et ne pas oublier que le laser à besoin d'une target point sur laquelle tirer son rayon.
 De plus, il faut vérifier que les paramètres du Moving Actor sont bien définis (si RotationValue es à 0, il ne tournera pas).
