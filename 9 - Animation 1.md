@@ -1,4 +1,4 @@
-# 8 - Animations 1
+# 9 - Animations 1
 
 Les portes qui disparaissent et les lasers statiques, c’est amusant deux minutes, mais si on veut donner un peu plus de dynamisme et d’intérêt à notre jeu, nous allons devoir créer des animations.
 
@@ -41,4 +41,4 @@ Puisqu'on ne veux pas que les portes s'ouvre/ferme plusieurs fois d'affilées (p
 
 Avec notre système d'animator sequencer, nos portes peuvent désormais s'ouvrir et se fermer de manière fluide : adieu les portes qui disparaissent ! 
 
-[9 - Animation 2ème partie](https://github.com/g404-code-gaming/Stealthgame/blob/main/9%20-%20Animation%202.md)
+[10 - Animation 2ème partie](https://github.com/g404-code-gaming/Stealthgame/blob/main/10%20-%20Animation%202.md)
