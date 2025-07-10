@@ -1,4 +1,4 @@
-# 8 - Animations
+# 8 - Animations 1
 
 Les portes qui disparaissent et les lasers statiques, c’est amusant deux minutes, mais si on veut donner un peu plus de dynamisme et d’intérêt à notre jeu, nous allons devoir créer des animations.
 
