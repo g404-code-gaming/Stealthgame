@@ -39,5 +39,5 @@ Ensuite, modifier le Blueprint du personnage pour ajouter la course.
 
 ![image 6](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/4_actionperso_6.JPG)
 
-[6 - Cinématique et chargement de scène](https://github.com/g404-code-gaming/Stealthgame/blob/main/5%20-%20Cin%C3%A9matique%20et%20chargement%20de%20sc%C3%A8ne.md)
+[6 - Cinématique et chargement de scène](https://github.com/g404-code-gaming/Stealthgame/blob/main/6%20-%20Cin%C3%A9matique%20et%20chargement%20de%20sc%C3%A8ne.md)
 
