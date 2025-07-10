@@ -1,4 +1,4 @@
-# Messages
+# 7 - Messages
 
 En plus des informations de l'interface utilisateur affichées en permanence, nous souhaitons pouvoir afficher des **messages temporaires** à l'écran. Ces messages sont essentiels pour que le joueur comprenne ce qu'il doit faire.
 
@@ -47,5 +47,5 @@ Grâce à la Macro, il est possible d'intégrer rapidement et facilement des mes
 
 Les messages sont un outil très important, que vous pouvez allier aux cinématiques pour créer des évènements intéressants dans le jeu. C'est essentiel pour faire comprendre au joueur quoi faire. 
 
-[7 - Laser](https://github.com/g404-code-gaming/Stealthgame/blob/main/7%20-%20Lasers.md)
+[8 - Laser](https://github.com/g404-code-gaming/Stealthgame/blob/main/7%20-%20Lasers.md)
 
