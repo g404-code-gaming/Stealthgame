@@ -1,4 +1,4 @@
-# Laser
+# 8 - Laser
 
 En plus des caméras, le joueur peut se faire détecter par des **rayons laser**.
 
@@ -59,5 +59,5 @@ Avec ces ajouts, les Laser fonctionnent maintenant comme des caméras : ils déc
 
 Contrairement aux Caméras, qui sont surtout utilisée pour former une zone d'interdiction sur le sol, les lasers peuvent être utilisés pour former de véritable obstacles en 3D. Dans la partie suivante, nous allons créer du mouvement dans le jeu.
 
-[8 - Animations]()
+[9 - Animations](https://github.com/g404-code-gaming/Stealthgame/blob/main/9%20-%20Animation%201.md)
 
