@@ -47,5 +47,5 @@ Grâce à la Macro, il est possible d'intégrer rapidement et facilement des mes
 
 Les messages sont un outil très important, que vous pouvez allier aux cinématiques pour créer des évènements intéressants dans le jeu. C'est essentiel pour faire comprendre au joueur quoi faire. 
 
-[9 - Laser](https://github.com/g404-code-gaming/Stealthgame/blob/main/9%20-%20Animation%201.md)
+[8 - Laser](https://github.com/g404-code-gaming/Stealthgame/blob/main/8%20-%20Lasers.md)
 
