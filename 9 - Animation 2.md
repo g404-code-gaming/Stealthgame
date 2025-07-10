@@ -4,7 +4,7 @@ Nous avons vus le séquenceur, qui permet de créer des animations de manière e
 
 Ici, on souhaite faire en sorte que les Lasers puissent bouger, soit de manière **circulaire** (en tourant sur eux-même), soit de manière **linéaire** (glissant d'une position à l'autre).
 
-![image 1]https://github.com/g404-code-gaming/Stealthgame/blob/main/image/9_animation_1.JPG) 
+![image 1](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/9_animation_1.JPG) 
 
 ## Moving Actor 
 
@@ -23,18 +23,18 @@ Créez donc une nouvelle [classe](https://github.com/g404-code-gaming/UnrealEngi
 
 Toutes les variables doivent être visible (l'oeil ouvert à coté), afin qu'il soit possible de les modifier directement depuis le niveau.
 
-![image 2]https://github.com/g404-code-gaming/Stealthgame/blob/main/image/9_animation_2.JPG) 
+![image 2](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/9_animation_2.JPG) 
 
 ## Rotation du Moving Actor
 
 Pour que l'objet puisse tourner sur lui-même, nous allons ajouter le graphique suivant dans son Blueprint : 
   Concrètement, on vérifie si la variable *Rotate* est vraie, et si c'est bien le cas, on fait tourner l'objet grâce à *add actor rotation*. 
 
-![image 3]https://github.com/g404-code-gaming/Stealthgame/blob/main/image/9_animation_3.JPG) 
+![image 3](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/9_animation_3.JPG) 
 
 Une fois que c'est fait, nous allons poser un Moving Actor sur la scène et mettre un laser à l'intérieur pour tester notre nouveau programme.
 
-![image 4]https://github.com/g404-code-gaming/Stealthgame/blob/main/image/9_animation_4.JPG) 
+![image 4](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/9_animation_4.JPG) 
 
 Il faut bien intégrer le laser dans le Moving target, et ne pas oublier que le laser à besoin d'une target point sur laquelle tirer son rayon.
 De plus, il faut vérifier que les paramètres du Moving Actor sont bien définis (si RotationValue es à 0, il ne tournera pas).
@@ -47,13 +47,14 @@ Maintenant, on souhaite ajouter au Moving Actor la capacité de se déplacer d'u
 
 Ajouter le programme suivant au blueprint du Moving Actor :
 
-![image 5]https://github.com/g404-code-gaming/Stealthgame/blob/main/image/9_animation_5.JPG) 
+![image 5](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/9_animation_5.JPG) 
+![image 6](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/9_animation_6.JPG) 
 
 Ce programme permet de déplacer le Moving Actor d'une Target à une autre. 
 
 Implémentez cette nouvelle fonction du Moving Actor dans le niveau. 
 
-![image 6]https://github.com/g404-code-gaming/Stealthgame/blob/main/image/9_animation_6.JPG) 
+![image 7](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/9_animation_7.JPG) 
 
 Grâce aux déplacements d'objet du Moving Actor, nous pouvons désormais rajouter du vivant et de la difficulté dans le jeu.
 
