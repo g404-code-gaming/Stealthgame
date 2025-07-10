@@ -49,4 +49,4 @@ Désormais, notre personnage possède un interface sur lequel apparait les contr
 
 ![image 9](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/1%20-%20parametre%20et%20interface%20-%209.png)
 
-[4 - Actions du personnage](https://github.com/g404-code-gaming/Stealthgame/blob/main/4%20-%20Actions%20du%20personnage.md)
+[4 - Bouton et interface](https://github.com/g404-code-gaming/Stealthgame/blob/main/4%20-%20Bouton%20et%20interaction.md)
