@@ -39,3 +39,6 @@ Puisqu'on ne veux pas que les portes s'ouvre/ferme plusieurs fois d'affilées (p
 
 ![image 8](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/8_anim_8.png)
 
+Avec notre système d'animator sequencer, nos portes peuvent désormais s'ouvrir et se fermer de manière fluide : adieu les portes qui disparaissent ! 
+
+[9 - Animation 2ème partie](https://github.com/g404-code-gaming/Stealthgame/blob/main/9%20-%20Animation%202.md)
