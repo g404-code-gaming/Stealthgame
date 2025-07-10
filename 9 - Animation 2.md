@@ -47,14 +47,14 @@ Maintenant, on souhaite ajouter au Moving Actor la capacité de se déplacer d'u
 
 Ajouter le programme suivant au blueprint du Moving Actor :
 
-![image 5](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/9_animation_5.JPG) 
-![image 6](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/9_animation_6.JPG) 
+![image 5](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/9_animation_5.png) 
+![image 6](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/9_animation_6.png) 
 
 Ce programme permet de déplacer le Moving Actor d'une Target à une autre. 
 
 Implémentez cette nouvelle fonction du Moving Actor dans le niveau. 
 
-![image 7](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/9_animation_7.JPG) 
+![image 7](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/9_animation_7.png) 
 
 Grâce aux déplacements d'objet du Moving Actor, nous pouvons désormais rajouter du vivant et de la difficulté dans le jeu.
 
