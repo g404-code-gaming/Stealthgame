@@ -79,4 +79,4 @@ Testez le jeu !
 
 Désormais, vous avez les bases de la programmation par Blueprint en utilisant les classes. Vous savez créer des Classes d'acteurs, leur donner du script pour des fonctionnements de base, et même les relier entre eux grâce à des Events dispatcher.
 
-[5 - Actions du personnage](https://github.com/g404-code-gaming/Stealthgame/blob/main/4%20-%20Actions%20du%20personnage.md)
+[5 - Actions du personnage](https://github.com/g404-code-gaming/Stealthgame/blob/main/5%20-%20Actions%20du%20personnage.md)
