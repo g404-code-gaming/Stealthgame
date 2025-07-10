@@ -1,4 +1,4 @@
-# Actions du personnage 
+# 5 - Actions du personnage 
 
 Nous allons rajouter quelques actions en plus pour notre personnage. Il est en effet déjà capable de se déplacer et de sauter, mais nous allons rajouter deux actions très commune dans les FPS, et qui vont ajouter de la profondeur et de la fluidité dans le jeu.
 
