@@ -28,6 +28,7 @@ Toutes les variables doivent être visible (l'oeil ouvert à coté), afin qu'il 
 ## Rotation du Moving Actor
 
 Pour que l'objet puisse tourner sur lui-même, nous allons ajouter le graphique suivant dans son Blueprint : 
+  Concrètement, on vérifie si la variable *Rotate* est vraie, et si c'est bien le cas, on fait tourner l'objet grâce à *add actor rotation*. 
 
 (image 3)
 
@@ -42,7 +43,7 @@ Lorsque tout ces éléments sont intégré au niveau, faites le test pour vérif
 
 ## Déplacement linéaire du Moving Actor
 
-Maintennat, on souhaite ajouter au Moving Actor la capacité de se déplacer d'un point à un autre, dans un mouvement de va-et-viens qui va apporter beaucoup de vivant et de challenge dans le jeu.
+Maintenant, on souhaite ajouter au Moving Actor la capacité de se déplacer d'un point à un autre, dans un mouvement de va-et-viens qui va apporter beaucoup de vivant et de challenge dans le jeu.
 
 Ajouter le programme suivant au blueprint du Moving Actor :
 
