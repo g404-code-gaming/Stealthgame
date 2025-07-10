@@ -55,6 +55,6 @@ Améliorez votre niveau de jeu pour ajouter le vide, et testez le pour voir si l
 
 Le vide servira à construire des ateliers avec des plateformes sur lesquels le joueur devra sauter pour atteindre la prochaine étape du jeu. 
 
-[6 - Messages avancés](https://github.com/g404-code-gaming/Stealthgame/blob/main/6%20-%20Messages.md)
+[7 - Messages avancés](https://github.com/g404-code-gaming/Stealthgame/blob/main/7%20-%20Messages.md)
 
 
