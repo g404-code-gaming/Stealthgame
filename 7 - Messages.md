@@ -1,4 +1,4 @@
-# 8 - Messages
+# 7 - Messages
 
 En plus des informations de l'interface utilisateur affichées en permanence, nous souhaitons pouvoir afficher des **messages temporaires** à l'écran. Ces messages sont essentiels pour que le joueur comprenne ce qu'il doit faire.
 
