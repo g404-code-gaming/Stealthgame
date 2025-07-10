@@ -39,7 +39,7 @@ Vous n'avez rien de plus à faire ici : tout le reste sera dans les Blueprints.
 
 ## Blueprint
 
-Dans le Blueprint de votre personnage, qui a été créé dans le chapitre précédent, ajouter le graphique pour interragir avec les objets.
+Dans le Blueprint de votre **personnage**, qui a été créé dans le chapitre précédent, ajouter le graphique pour interragir avec les objets.
 
 Ce graphique vérifie lorsque le personnage est en collision avec un objet qui a un interface implémenté. Le programme appelle alors la fonction d'interaction.
 
