@@ -12,7 +12,7 @@ Nous allons commencez par créer l'objet permettant le mouvement : le **Moving A
 
 Il s'agit d'une classe spéciale, invisible, qui peut bouger. Elle va contenir d'autres classes pour les déplacer.
 
-Créez donc une nouvelle [classe]() **Moving Actor**. Cette classe va avoir besoin d'une certaine quantité de variables : 
+Créez donc une nouvelle [classe](https://github.com/g404-code-gaming/UnrealEngine_cour/blob/main/Classes.md) **Moving Actor**. Cette classe va avoir besoin d'une certaine quantité de variables : 
   - **Rotate** : un Booléen qui détermine si l'objet doit tourner ou non.
   - **RotationValue** : la vitesse à laquelle l'objet tourne.
   - **Travel** : un Booléen qui détermine si l'objet doit se déplacer ou non.
