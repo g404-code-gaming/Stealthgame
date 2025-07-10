@@ -1,4 +1,4 @@
-# Animation 2
+# 10 - Animation 2
 
 Nous avons vus le séquenceur, qui permet de créer des animations de manière expérimentale. Il est aussi possible de créer ses propres 'animations' en déplaçant plus simplement les objets du niveau. 
 
