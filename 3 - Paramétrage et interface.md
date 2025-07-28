@@ -5,7 +5,7 @@
 Nous allons travailler un peu au paramétrage de notre projet : pour l'instant, nous utilisons des éléments issus du template FirstPerson, mais nous pourrions avoir besoin de les modifier dans la suite du projet.
 Pour éviter de modifier les classes déjà faites du projet, nous allons créer les nôtres :
 
-Dupliquez le **Blueprint du personnage** et le **Gamemode** à partir du dossier FirstPerson. Renommez-les et placez-les dans votre propre dossier Stealthgame.
+Allez dans le dossier FirstPerson. Trouvez les fichiers du **Blueprint du personnage** et du **Gamemode**. Dupliquez-les, et déplacer les copies dans votre propre dossier Stealthgame. Il faut renommer les copies en quelque chose comme Stealthgame_character et Stealthgame_gamemode. 
 
 ![image 1](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/1%20-%20parametre%20et%20interface%20-%201.png)
 
