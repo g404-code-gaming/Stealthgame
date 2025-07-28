@@ -54,7 +54,7 @@ Dans le Blueprint du Bouton, ajouter les nodes permettants de reconnaître quand
 - (1) afficher un message au joueur pour qu'il sache quelle touche utilisée pour pressé le bouton.
 - (2) Pour ce graphique, on utilise Gate, un outil permettant de déclencher des évènements en fonction de certaines conditions simples. En effet, l'évènement ne se déclenche que si on appuie sur le bouton ET qu'on est en collision avec le bouton.
 - (3) Ajoutez un Event dispatcher Used qui servira plus tards dans le Level-Blueprint.
-- (4) Lorsque le bouton est pressé, un indicateur lumineux s'éteint et se rallume pour indiquer au joueur que son action à réussis.
+- (4) Lorsque le bouton est pressé, un indicateur lumineux s'éteint et se rallume pour indiquer au joueur que son action a réussis.
 
 ![image 8](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/bouton_8.png)
 
