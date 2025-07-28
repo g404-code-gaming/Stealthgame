@@ -41,6 +41,8 @@ Ensuite, dans le **Level Blueprint**, nous allons créer des graphique de node c
 
 Commençons par créer un graphique qui ferme toutes les portes, et un autre qui ouvre toutes les portes : 
 
+> Dans Unreal Engine, les nodes rouges sont des débuts fonctions. Celles qui ont la mention "Custom event" sont des évènements personnalisés. Vous pouvez les créer en cherchant Custom event dans la barre de recherche.
+
 ![image](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/2_evenement_5.png)
 
 Ensuite, nous devons créer le graphique qui prend toutes les caméras et leur assigne un évènement qui ouvre la porte lorsque l'event dispatcher est appelé. 
