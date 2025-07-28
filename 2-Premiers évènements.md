@@ -17,9 +17,9 @@ Commencez par 'ouvrir' la porte par défaut dans le [Level Blueprint](https://gi
 
 ![image](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/2_evenement_2.png)
 
-Ensuite, on crée l'évènement qui reconnait quand le joueur entre dans le rayon d'action de la caméra. Cela allume une lumière d'alarme. Ce script doit être mis dans le graphique de la classe, et pas dans le Lvl-Blueprint. 
+Ensuite, créez la [Classe](https://github.com/g404-code-gaming/UnrealEngine_cour/blob/main/Classes.md) **Caméra**. C'est elle qui va détecter le joueur pour fermer les portes. Elle dois contenir au moins une **lumière** (spot light) et une **sphère de collision** (sphere collider).
 
-> N'oubliez pas de créer la Classe Caméra, dans laquelle dois figurer au moins une **sphère de colision** et une **lumière**.
+On peut désormai créer l'évènement qui reconnait quand le joueur entre dans le rayon d'action de la caméra. Cela allume une lumière d'alarme. Ce script doit être mis dans le graphique de la classe, et pas dans le Lvl-Blueprint. 
 
 ![image](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/2_evenement_3.png)
 
