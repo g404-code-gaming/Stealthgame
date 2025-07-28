@@ -17,7 +17,7 @@ Commencez par 'ouvrir' la porte par défaut dans le [Level Blueprint](https://gi
 
 ![image](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/2_evenement_2.png)
 
-Ensuite, on créer l'évènement qui reconnait quand le joueur entre dans le rayon d'action de la caméra. Cela allume une lumière d'alarme. Ce script doit être mis dans le graphique de la classe, et pas dans le Lvl-Blueprint. 
+Ensuite, on crée l'évènement qui reconnait quand le joueur entre dans le rayon d'action de la caméra. Cela allume une lumière d'alarme. Ce script doit être mis dans le graphique de la classe, et pas dans le Lvl-Blueprint. 
 
 > N'oubliez pas de créer la Classe Caméra, dans laquelle dois figurer au moins une **sphère de colision** et une **lumière**.
 
