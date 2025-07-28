@@ -8,6 +8,8 @@ Les cinématiques sont souvent utilisées pour donner une information au joueur.
 
 Ajouter une Caméra à votre scène.
 
+> On parle ici d'une "vraie" caméra et pas de l'objet que nous avons créés dans le chapitre 2.
+
 ![image 1](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/5_cinematique%20et%20scene_1.png)
 
 Pour contrôler facilement la caméra, nous allons utiliser des Macros. 
