@@ -14,7 +14,7 @@ Ajouter une Caméra à votre scène.
 
 Pour contrôler facilement la caméra, nous allons utiliser des Macros. 
 
-Créer la MacroLibrary pour votre projet. 
+Créer la **MacroLibrary** pour votre projet. 
 
 ![image 2](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/5_cinematique%20et%20scene_2.png) 
 
