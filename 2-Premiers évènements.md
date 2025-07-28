@@ -8,7 +8,7 @@ Notre objectif est de faire apparaître une porte à la fin du niveau lorsque le
 
 ![image](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/2_evenement_1.png)
 
-Voici ce qu'on souhaite faire, retraduit dans une forme plus "scrip" : 
+Voici ce qu'on souhaite faire, retraduit dans une forme plus "script" : 
   - Faire disparaître la porte par défaut pour que le personnage puisse passer au niveau suivant. Cela signifie que la porte est invisible, mais aussi qu'elle n'a pas de collision.
   - Reconnaître quand le personnage passe dans le rayon de détection de la caméra.
   - Faire fermer la porte lorsque la caméra vois le personnage. 
