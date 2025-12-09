@@ -27,9 +27,11 @@ Désormais, supprimez le code superflus dans le Level Blueprint. En effet, le HU
 
 ### intégrer le texte de message 
 
-Dans le **WPB_Stealthgame_UI**, ajoutons un nouveau texte que nous allons nommé **Message** : c'est lui qui affichera le message.
+Dans le **WPB_Stealthgame_UI**, ajoutons un nouveau texte que nous allons nommé **Message**.
 
 ![image 4](image/6_message_message.png)
+
+C'est ce texte qui affichera le message. Placez-le à un endroit bien visible, par exemple, au centre de l'image.
 
 ### La Macro Show Message
 
