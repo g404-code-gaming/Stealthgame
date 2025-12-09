@@ -25,6 +25,12 @@ Désormais, supprimez le code superflus dans le Level Blueprint. En effet, le HU
 
 ![image 4](https://github.com/g404-code-gaming/Stealthgame/blob/main/image/6_message_4.png)
 
+### intégrer le texte de message 
+
+Dans le **WPB_Stealthgame_UI**, ajoutons un nouveau texte que nous allons nommé **Message** : c'est lui qui affichera le message.
+
+![image 4](image/6_message_message.png)
+
 ### La Macro Show Message
 
 Nous allons maintenant créer une **Macro** destinée à afficher temporairement des messages à l'écran.
